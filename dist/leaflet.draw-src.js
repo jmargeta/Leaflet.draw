@@ -1323,6 +1323,7 @@ L.Edit.PolyVerticesEdit = L.Handler.extend({
 		}
 		this._markers = [];
 
+		this._latlngs = this._poly._latlngs;
 		var latlngs = this._latlngs,
 			i, j, len, marker;
 
